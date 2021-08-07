@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Headercomp from "./HeaderComp/Headercomp";
+import "antd/dist/antd.css";
+import Comp from "./HeaderComp/Comp";
+import SideBar from "./Ader/SideBar/SideBar";
+import HeaderNav from "./Ader/HeaderNav";
+import Thetwo from "./HeaderComp/Thetwo";
+import Body from "./BodyComp/Body";
+import About from "./Aboutcomp/About";
+import HS from "./Firebase/HS";
+import Card from "./Firebase/Card";
+import Project from "./Roject/Project";
+import You from "./Firebase/You";
+import Tnput from "./Firebase/Tnput";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Thetwo />
+      <Body />
+      <About /> */}
+      <HS />
+      <Tnput />
+      <You />
+      {/* <Project /> */}
     </div>
   );
 }
